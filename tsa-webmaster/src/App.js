@@ -3,7 +3,9 @@ import './App.css'
 function App() {
 	return (
 		<div className="App">
-			<header className="App-header">SPAAAACE</header>
+			<header className="App-header">
+				<h1 className="App-spin">SPAAAAAAACE</h1>
+			</header>
 		</div>
 	)
 }
