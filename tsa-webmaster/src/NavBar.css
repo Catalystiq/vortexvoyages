@@ -1,11 +1,14 @@
 .NavBar {
 	height: 70px;
 	background-color: #18191a;
+	background-image: linear-gradient(#1e1e1e, #000000);
+	opacity: 1;
 	color: #fafafa;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0px 5%;
+	position: fixed;
+	width: 100vw;
 }
 
 .NavBar-links {
@@ -13,6 +16,7 @@
 	width: 400px;
 	justify-content: space-between;
 	align-items: center;
+	padding-right: 15px;
 }
 
 .NavBar-link {
@@ -27,4 +31,5 @@
 
 .NavBar-logo img {
 	width: 50px;
+	padding-left: 15px;
 }
