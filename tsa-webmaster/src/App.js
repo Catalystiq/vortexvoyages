@@ -5,8 +5,8 @@ function App() {
 	return (
 		<div className="App">
 			<NavBar></NavBar>
-			<header className="App-header">
-				<h1 className="App-spin">SPAAAAAAACE</h1>
+			<div className="App-header">
+				<h1 className="App-heading">SPAAAAAAACE</h1>
 				<div className="App-text">
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
@@ -15,7 +15,7 @@ function App() {
 						assumenda recusandae praesentium.
 					</p>
 				</div>
-			</header>
+			</div>
 		</div>
 	)
 }

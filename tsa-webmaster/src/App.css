@@ -21,19 +21,6 @@
 	max-width: 80%;
 }
 
-.App-spin {
-	animation: spin 5s linear infinite;
-}
-
-@keyframes spin {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
-}
-
 ::-webkit-scrollbar {
 	display: none;
 }
