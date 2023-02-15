@@ -4,8 +4,8 @@ import Home from '@/components/Home'
 export default function HomePage() {
   return (
     <>
-      <Head title="Vortex Voyages"></Head>
-      <Home></Home>
+      <Head title="Vortex Voyages"/>
+      <Home/>
     </>
   )
 }
