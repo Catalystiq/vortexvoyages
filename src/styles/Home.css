@@ -2,23 +2,32 @@
 	text-align: center;
 }
 
-.App-header {
+.App-main {
 	background-color: #000000;
 	background-image: url('../../public/img/background.jpg');
 	background-size: cover;
 	background-position: -26vw;
 	background-repeat: no-repeat;
 	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
 	font-size: calc(10px + 2vmin);
 	color: white;
+	width: 90vw;
+	display: flex;
+	align-items: center;
+	justify-content: right;
 }
 
-.App-text {
-	max-width: 80%;
+.App-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	width: 40%;
+	text-align: right;
+}
+
+.App-heading {
+	font-size: 3.5em;
+	margin-bottom: 30px;
 }
 
 ::-webkit-scrollbar {
