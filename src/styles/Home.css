@@ -39,6 +39,33 @@
 	animation-fill-mode: forwards;
 }
 
+.purchase-header {
+	margin-top: 100px;
+}
+
+.button {
+	background-color: #ffff;
+	border: none;
+	color: black;
+	padding: 30px 48px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+	margin-top: 50px;
+	margin-bottom: 300px;
+	border-radius: 40px;
+}
+
+.button:hover {
+	background-color: #e7e7e7;
+}
+
+.button:active {
+	background-color: #dddddd;
+	transform: translateY(4px);
+}
+
 ::-webkit-scrollbar {
 	display: none;
 }

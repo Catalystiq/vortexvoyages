@@ -1,0 +1,13 @@
+.Section {
+	height: 250px;
+	background-color: #141414;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Section-content {
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+}

@@ -1,6 +1,7 @@
 import '@/styles/Home.css'
 import NavBar from '@/components/NavBar'
 import Spacer from './Spacer'
+import Section from './Section'
 
 export default function Home() {
 	return (
@@ -18,8 +19,13 @@ export default function Home() {
 				</div>
 			</div>
 			<Spacer></Spacer>
-			<p>Blah blah blah</p>
+			<Section></Section>
 			<Spacer></Spacer>
+			<Spacer></Spacer>
+			<div className="App-purchase">
+				<h1 className="purchase-header">Join the waitlist today</h1>
+				<button className="button">Register</button>
+			</div>
 		</div>
 	)
 }
