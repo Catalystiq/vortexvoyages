@@ -11,7 +11,7 @@
 	width: 100vw;
 }
 
-.NavBar-links {
+.NavBarLinks {
 	display: flex;
 	width: 400px;
 	justify-content: space-between;
@@ -19,17 +19,17 @@
 	padding-right: 15px;
 }
 
-.NavBar-link {
+.NavBarLink {
 	width: 75px;
 	text-align: center;
 }
 
-.NavBar-link a {
+.NavBarLink a {
 	color: white;
 	text-decoration: none;
 }
 
-.NavBar-logo img {
+.NavBarLogo img{
 	width: 50px;
 	padding-left: 15px;
 }

@@ -2,7 +2,7 @@
 	text-align: center;
 }
 
-.App-main {
+.AppMain {
 	background-color: #000000;
 	background-image: url('../../public/img/background.jpg');
 	background-size: cover;
@@ -17,7 +17,7 @@
 	justify-content: right;
 }
 
-.App-wrapper {
+.AppWrapper {
 	display: flex;
 	flex-direction: column;
 	width: 40%;
@@ -27,19 +27,19 @@
 	animation-fill-mode: forwards;
 }
 
-.App-heading {
+.AppHeading {
 	font-size: 3.5em;
 	margin-bottom: 30px;
 }
 
-.App-text {
+.AppText {
 	margin-bottom: 300px;
 	animation: fadeInAnimation ease 6s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 }
 
-.purchase-header {
+.purchaseHeader {
 	margin-top: 100px;
 }
 
@@ -57,18 +57,7 @@
 	border-radius: 40px;
 }
 
-.button:hover {
-	background-color: #e7e7e7;
-}
 
-.button:active {
-	background-color: #dddddd;
-	transform: translateY(4px);
-}
-
-::-webkit-scrollbar {
-	display: none;
-}
 
 @keyframes fadeInAnimation {
 	0% {

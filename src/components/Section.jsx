@@ -1,13 +1,13 @@
-import '@/styles/Section.css'
+import styles from '@/styles/Section.module.css'
 import Spacer from './Spacer'
 
 export default function Section() {
 	return (
-		<div className="Section">
-			<div className="Section-content">
-				<div className="Section-item">Item 1</div>
-				<div className="Section-item">Item 2</div>
-				<div className="Section-item">Item 3</div>
+		<div className={styles.Section}>
+			<div className={styles.SectionContent}>
+				<div className={styles.SectionItem}>Item 1</div>
+				<div className={styles.SectionItem}>Item 2</div>
+				<div className={styles.SectionItem}>Item 3</div>
 			</div>
 		</div>
 	)

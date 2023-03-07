@@ -119,3 +119,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.button:hover {
+	background-color: #e7e7e7;
+}
+
+.button:active {
+	background-color: #dddddd;
+	transform: translateY(4px);
+}
+
+::-webkit-scrollbar {
+	display: none;
+}

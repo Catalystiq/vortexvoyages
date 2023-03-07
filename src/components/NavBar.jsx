@@ -1,22 +1,23 @@
-import '@/styles/NavBar.css'
+import styles from '@/styles/NavBar.module.css'
+import Image from 'next/image'
 
 export default function NavBar() {
 	return (
-		<div className="NavBar">
-			<div className="NavBar-logo">
+		<div className={styles.NavBar}>
+			<div className={styles.NavBarLogo}>
 				<img src="./img/planet.png" alt="Planet logo" />
 			</div>
-			<div className="NavBar-links">
-				<div className="NavBar-link">
+			<div className={styles.NavBarLinks}>
+				<div className={styles.NavBarLink}>
 					<a href="#">Pricing</a>
 				</div>
-				<div className="NavBar-link">
+				<div className={styles.NavBarLink}>
 					<a href="#">Updates</a>
 				</div>
-				<div className="NavBar-link">
+				<div className={styles.NavBarLink}>
 					<a href="#">Launches</a>
 				</div>
-				<div className="NavBar-link">
+				<div className={styles.NavBarLink}>
 					<a href="#">Contact</a>
 				</div>
 			</div>

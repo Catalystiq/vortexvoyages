@@ -1,16 +1,16 @@
-import '@/styles/Home.css'
+import styles from '@/styles/Home.module.css'
 import NavBar from '@/components/NavBar'
 import Spacer from './Spacer'
 import Section from './Section'
 
 export default function Home() {
 	return (
-		<div className="App">
+		<div className={styles.App}>
 			<NavBar></NavBar>
-			<div className="App-main">
-				<div className="App-wrapper">
-					<h1 className="App-heading">The Final Frontier</h1>
-					<div className="App-text">
+			<div className={styles.AppMain}>
+				<div className={styles.AppWrapper}>
+					<h1 className={styles.AppHeading}>The Final Frontier</h1>
+					<div className={styles.AppText}>
 						<p>
 							Take a trip into the next step of human exploration, and
 							experience something unlike anything else
@@ -22,9 +22,9 @@ export default function Home() {
 			<Section></Section>
 			<Spacer></Spacer>
 			<Spacer></Spacer>
-			<div className="App-purchase">
-				<h1 className="purchase-header">Join the waitlist today</h1>
-				<button className="button">Register</button>
+			<div className={styles.AppPurchase}>
+				<h1 className={styles.PurchaseHeader}>Join the waitlist today</h1>
+				<button className={styles.button}>Register</button>
 			</div>
 		</div>
 	)

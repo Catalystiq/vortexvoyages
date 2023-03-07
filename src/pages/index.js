@@ -1,10 +1,19 @@
-import Head from '@/components/Head'
-import Home from '@/components/Home'
+//import HeadComponent from '@/components/HeadComponent'
+//import Home from '@/components/Home'
+import dynamic from 'next/dynamic'
+
+const HeadComponent = dynamic(() => import('@/components/HeadComponent'), {
+  ssr: false
+})
+
+const Home = dynamic(() => import('@/components/Home'), {
+  ssr: false
+})
 
 export default function HomePage() {
   return (
     <>
-      <Head title="Vortex Voyages"/>
+      <HeadComponent title="Vortex Voyages"/>
       <Home/>
     </>
   )
