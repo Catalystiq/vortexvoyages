@@ -6,9 +6,9 @@
 	background-color: #000000;
 	background-image: url('../../public/img/background.jpg');
 	background-size: cover;
-	background-position: -26vw;
+	background-position: -26vw -30vh;
 	background-repeat: no-repeat;
-	min-height: 100vh;
+	min-height: 130vh;
 	font-size: calc(10px + 2vmin);
 	color: white;
 	width: 90vw;
@@ -20,9 +20,11 @@
 .App-wrapper {
 	display: flex;
 	flex-direction: column;
-	align-items: right;
 	width: 40%;
 	text-align: right;
+	animation: fadeInAnimation ease 5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 }
 
 .App-heading {
@@ -30,6 +32,22 @@
 	margin-bottom: 30px;
 }
 
+.App-text {
+	margin-bottom: 300px;
+	animation: fadeInAnimation ease 6s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
 ::-webkit-scrollbar {
 	display: none;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
