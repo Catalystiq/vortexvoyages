@@ -39,6 +39,12 @@
 	animation-fill-mode: forwards;
 }
 
+.buttonWrapper {
+	width: 100%;
+	display: flex;
+	justify-content: right;
+}
+
 .purchaseHeader {
 	margin-top: 100px;
 }
@@ -55,9 +61,8 @@
 	margin-top: 50px;
 	margin-bottom: 300px;
 	border-radius: 40px;
+	width: min-content;
 }
-
-
 
 @keyframes fadeInAnimation {
 	0% {

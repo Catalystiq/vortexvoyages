@@ -29,7 +29,7 @@
 	text-decoration: none;
 }
 
-.NavBarLogo img{
-	width: 50px;
-	padding-left: 15px;
+.NavBarLogo {
+	/* width: 50px; */
+	padding-left: 30px;
 }

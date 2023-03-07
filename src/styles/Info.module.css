@@ -1,0 +1,33 @@
+/* Square grid styles */
+.wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.squares {
+	width: 1000px;
+}
+
+.square {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: -5px;
+}
+
+.square img {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+}
+
+.squareTextWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 42px;
+}
+
+.squareTextWrapper h1 {
+	color: #ffffff;
+}
