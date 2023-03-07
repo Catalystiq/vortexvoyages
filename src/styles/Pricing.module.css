@@ -1,4 +1,13 @@
-/* Other page content */
+.Pricing {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.PricingWrapper {
+	max-width: 90%;
+}
+
 .PricingHeader {
 	font-size: 3em;
 	width: 100%;
@@ -8,7 +17,7 @@
 }
 
 /* Table of Prices */
-.PricingWrapper {
+.PricingTable {
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -44,4 +53,9 @@
 
 .PricingColumn ul li {
 	padding: 5px 0px;
+}
+
+/* Text below table */
+.PricingText {
+	width: 75%;
 }
