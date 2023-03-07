@@ -5,20 +5,20 @@ export default function NavBar() {
 	return (
 		<div className={styles.NavBar}>
 			<div className={styles.NavBarLogo}>
-				<img src="./img/planet.png" alt="Planet logo" />
+				<i>Vortex Voyages</i>
 			</div>
 			<div className={styles.NavBarLinks}>
 				<div className={styles.NavBarLink}>
-					<a href="#">Pricing</a>
+					<a href="./">Home</a>
 				</div>
 				<div className={styles.NavBarLink}>
-					<a href="#">Updates</a>
+					<a href="./pricing">Pricing</a>
 				</div>
 				<div className={styles.NavBarLink}>
-					<a href="#">Launches</a>
+					<a href="./info">Info</a>
 				</div>
 				<div className={styles.NavBarLink}>
-					<a href="#">Contact</a>
+					<a href="./contact">Contact</a>
 				</div>
 			</div>
 		</div>
