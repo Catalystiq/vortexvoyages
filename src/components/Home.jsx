@@ -15,6 +15,9 @@ export default function Home() {
 							Take a trip into the next step of human exploration, and
 							experience something unlike anything else
 						</p>
+						<div className={styles.buttonWrapper}>
+							<button className={styles.button}>Register</button>
+						</div>
 					</div>
 				</div>
 			</div>
