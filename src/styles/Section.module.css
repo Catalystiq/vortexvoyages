@@ -11,3 +11,7 @@
 	display: flex;
 	justify-content: space-around;
 }
+
+.SectionImage {
+	filter: invert();
+}

@@ -6,13 +6,31 @@ export default function Section() {
 		<div className={styles.Section}>
 			<div className={styles.SectionContent}>
 				<div className={styles.SectionItem}>
-					<img src="../public/img/planet" alt="Planet Icon" />
+					<img
+						className={styles.SectionImage}
+						src="https://storage.googleapis.com/vortexvoyages-images/images/planet.png"
+						alt="Planet Icon"
+						width={100}
+					/>
+					<h2>Travel Beyond</h2>
 				</div>
 				<div className={styles.SectionItem}>
-					<img src="../public/img/astronaut" alt="Astronaut Icon" />
+					<img
+						className={styles.SectionImage}
+						src="https://storage.googleapis.com/vortexvoyages-images/images/astronaut.png"
+						alt="Astronaut Icon"
+						width={100}
+					/>
+					<h2>Professional Training</h2>
 				</div>
 				<div className={styles.SectionItem}>
-					<img src="../public/img/rocket" alt="Rocket Icon" />
+					<img
+						className={styles.SectionImage}
+						src="https://storage.googleapis.com/vortexvoyages-images/images/rocket.png"
+						alt="Rocket Icon"
+						width={100}
+					/>
+					<h2>Next-Gen Rocket</h2>
 				</div>
 			</div>
 		</div>
