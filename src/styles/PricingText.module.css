@@ -1,0 +1,29 @@
+/* Text below table */
+.PricingTextWrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.PricingTextGrid {
+	width: 75%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.PricingText {
+	padding: 0px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+}
+
+.PricingText h1 {
+	padding-bottom: 20px;
+}
+
+.PricingText p {
+	padding-bottom: 15px;
+}
