@@ -27,3 +27,13 @@
 .PricingText p {
 	padding-bottom: 15px;
 }
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+	.PricingTextGrid {
+		width: 90%;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 0fr 0fr 1fr;
+	}
+}
