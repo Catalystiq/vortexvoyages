@@ -14,10 +14,10 @@
 
 .NavBarLinks {
 	display: flex;
-	width: 400px;
+	width: 300px;
 	justify-content: space-between;
 	align-items: center;
-	padding-right: 15px;
+	padding-right: 30px;
 }
 
 .NavBarLink {

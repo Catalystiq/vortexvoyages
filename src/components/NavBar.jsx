@@ -1,16 +1,16 @@
 import styles from '@/styles/NavBar.module.css'
 import Image from 'next/image'
+import logo from '../../public/img/logo.png'
 
 export default function NavBar() {
 	return (
 		<div className={styles.NavBar}>
 			<div className={styles.NavBarLogo}>
-				<i>Vortex Voyages</i>
+				<a href="./">
+					<Image src={logo} alt={'Vortex Voyages Logo'} height={65}></Image>
+				</a>
 			</div>
 			<div className={styles.NavBarLinks}>
-				<div className={styles.NavBarLink}>
-					<a href="./">Home</a>
-				</div>
 				<div className={styles.NavBarLink}>
 					<a href="./pricing">Pricing</a>
 				</div>
