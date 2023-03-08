@@ -40,10 +40,12 @@ export default function Info() {
 							<h1>Recovery</h1>
 
 							<p>
-								Vortex Voyages provides a reliable and safe rocket recovery system in order to bring its space tourism customers back to earth.
-								We use safe and patented parachute technology in order to safely bring back tourists from space and land them safely in the ocean.
-								We also use a state of the art rocket recovery reusability system in order to bring back parts of the rocket after they have been used
-								to escape earths atmosphere. This allows us to reuse the rocket and dramitcally reduce the cost of space tourism for our customers.
+							Returning to Earth can be a challenge, but here at Vortex Voyages, we have created a safe way to come home.
+							 Venture Landing Shuttle has been tested over hundreds of flights and is constantly being updated. Our landing
+							  route limits the amount of G-force upon reentry; however, it is still a thrilling and straining experience.
+							   Once breaking through the atmosphere, the shuttle will glide to our recovery complex in Florida, where it 
+							   will land safely. Once there, you will be taken care of for a day or two to ensure you are adjusted back to Earth. 
+							   You will stay at our luxury resort while you make your recovery.
 							</p>
 							<br />
 							<p className={styles.squareAttribution}>Photo by <a className={styles.squareLink} href="https://unsplash.com/@spacex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">SpaceX</a> on <a className={styles.squareLink} href="https://unsplash.com/photos/MEW1f-yu2KI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
@@ -54,11 +56,13 @@ export default function Info() {
 							<h1>Training</h1>
 
 							<p>
-								Vortex Voyages ensures that training for astronauts is a critical aspect of space tourism, as it ensures the safety of the passengers 
-								and the success of the mission. In order to be prepared for space flight, astronauts must first undergo rigorous physical training such as 
-								running, weightlifting, and swimming. Astronauts will also be trained in zero-gravity environments and trained in situations such as launch, 
-								orbit, and reentry so they can prepare for emergency sitations and develop problem-solving skills. Astronauts will also be trained in the 
-								operation of spacecraft, space suits, and other equipment, as well as team-building and communication skills as well.
+							Before taking flight, you must take our training course to ensure maximum safety. Three months before your launch date,
+							 you will be instructed to take our online course to learn about all of our systems and proper safety regulations. After
+							  completing the online course, you will be flown to our Zero-G Training Facility in Nevada, where you can learn how to
+							   maneuver in Zero-G. Also, while there, you will learn more about our rockets and experience simulated drills. Our pool
+							    will allow you to feel what zero G would feel like. At this time, you will be assigned a guide that will answer all
+								 questions and will train you personally. Finally, you will meet at our launch facility one day before your launch
+								  to get the final briefing and instructions. After that, it is off to the stars.
 							</p>
 							<br />
 							<p className={styles.squareAttribution}>Photo by <a className={styles.squareLink} href="https://unsplash.com/@sammoghadamkhamseh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moghadam Khamseh</a> on <a className={styles.squareLink} href="https://unsplash.com/photos/Z4Q9KHw9ofE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
@@ -77,11 +81,16 @@ export default function Info() {
 							<h1>Vehicles</h1>
 
 							<p>
-								Vortex Voyages uses the latest in spacecraft technology to provide a safe and reliable space tourism experience for our customers.
-								For our orbital flights, we use crewed spacecrafts that are capable of carrying up to 6 passengers and 2 crew members that can carry
-								passengers on multi-day trips around Earth. For our lunar flights, we use capable spacecraft that can land on the moon that can
-								carry up to 4 passengers and 2 crew members and that can carry passengers on multi-day trips on the moon. For our martian flights,
-								we use spacecraft that can land on Mars that can carry up to 4 passengers and 2 crew members that can carry passengers on multi-day trips on Mars.
+							Votex Voyages employees are well-tested equipment to deliver an awing experience.
+							 Are low Earth orbit launches will be carried out by our Venture Five rocket, which
+							  supports ten people for launch. It specializes in taking passengers and personnel
+							   to our Solar Resort in Earths orbit. Our Venture Seven rockets allow for journies
+							    to the moon. They offer a bigger cabin size for the three-day journey. The Venture
+								 Eleven rocket is the flagship of Vortex Voyages. Venture Eleven opens the door to
+								  Mars-style packages as it is one of the biggest rockets we operate. We currently
+								   have two primary stations, Solar Resorts, and the Lunar Base. Solar Resorts give
+								    the experience of sleeping among the stars while our Luner Base allows you to walk
+									 on uncharted ground. Both facilities offer many luxurious experiences for you to enjoy.
 							</p>
 							<br />
 							<p className={styles.squareAttribution}>Photo by <a className={styles.squareLink} href="https://unsplash.com/@spacex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">SpaceX</a> on <a className={styles.squareLink} href="https://unsplash.com/photos/GDdRP7U5ct0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>

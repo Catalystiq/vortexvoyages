@@ -18,7 +18,7 @@ export default function NavBar() {
 					<a href="./info">Info</a>
 				</div>
 				<div className={styles.NavBarLink}>
-					<a href="./contact">Contact</a>
+					<a href="./references">References</a>
 				</div>
 			</div>
 		</div>
