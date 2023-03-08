@@ -28,9 +28,32 @@
 .NavBarLink a {
 	color: white;
 	text-decoration: none;
+	font-size: 20px;
 }
 
 .NavBarLogo {
 	/* width: 50px; */
 	padding-left: 30px;
+}
+
+/* Media Queries */
+@media (max-width: 400px) {
+	.NavBar {
+		flex-direction: column;
+		justify-content: space-around;
+		height: 120px;
+	}
+
+	.NavBarLogo {
+		padding-left: 0px;
+	}
+
+	.NavBarLinks {
+		padding-right: 0px;
+		padding-bottom: 10px;
+	}
+
+	.NavBarLink {
+		font-size: 16px;
+	}
 }
