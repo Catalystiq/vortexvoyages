@@ -15,38 +15,38 @@ export default function Pricing() {
 					<div className={styles.PricingColumns}>
 						<div className={styles.PricingColumn}>
 							<h2>Economy</h2>
+							<p>Starting At</p>
 							<h3>$10,000</h3>
 							<ul>
-								<li>Comfortable Seating</li>
-								<li>Expert Tour Guide</li>
-								<li>Lorem ipsum</li>
-								<li>Dolor sit amet.</li>
-								<li>Lorem ipsum</li>
-								<li>Dolor sit amet.</li>
+								<li>Low Orbit Trip</li>
+								<li>Professional Tour Guide</li>
+								<li>Two Day Training Course Prior to Takeoff</li>
 							</ul>
 						</div>
 						<div className={styles.PricingColumn}>
 							<h2>Buisness</h2>
-							<h3>$10,000</h3>
+							<p>Starting At</p>
+							<h3>$100,000</h3>
 							<ul>
-								<li>Comfortable Seating</li>
-								<li>Expert Tour Guide</li>
-								<li>Lorem ipsum</li>
-								<li>Dolor sit amet.</li>
-								<li>Lorem ipsum</li>
-								<li>Dolor sit amet.</li>
+								<li>
+									Trip to the <b>Moon</b>
+								</li>
+								<li>One Week Stay on Moon Colony</li>
+								<li>Guided Tour Around the Moon</li>
+								<li>One Week Training Course Prior to Takeoff</li>
 							</ul>
 						</div>
 						<div className={styles.PricingColumn}>
 							<h2>First Class</h2>
-							<h3>$10,000</h3>
+							<p>Please</p>
+							<h3>Contact for Pricing</h3>
 							<ul>
-								<li>Comfortable Seating</li>
-								<li>Expert Tour Guide</li>
-								<li>Lorem ipsum</li>
-								<li>Dolor sit amet.</li>
-								<li>Lorem ipsum</li>
-								<li>Dolor sit amet.</li>
+								<li>
+									Take a trip to <b>Mars</b>
+								</li>
+								<li>Take extended stay on Mars Colony</li>
+								<li>Guided Tour during the trip and on Mars</li>
+								<li>Three Week Training Course Prior to Takeoff</li>
 							</ul>
 						</div>
 					</div>

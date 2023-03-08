@@ -54,6 +54,10 @@
 	text-align: center;
 }
 
+.PricingColumn p {
+	text-align: center;
+}
+
 .PricingColumn ul li {
 	padding: 5px 0px;
 }
