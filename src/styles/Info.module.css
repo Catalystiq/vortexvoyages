@@ -14,20 +14,47 @@
 	margin-top: -5px;
 }
 
+.square h1 {
+	font-size: 2.5em;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+.square p {
+	font-size: 1.15em;
+	text-align: left;
+}
+
 .square img {
 	width: 100%;
-	height: 500px;
+	height: 400px;
 	object-fit: cover;
 }
 
 .squareTextWrapper {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 42px;
+	justify-content: left;
+	align-items: left;
+	padding: 10px;
 }
 
 .squareTextWrapper h1 {
 	color: #ffffff;
+}
+
+.infoHeader {
+	font-size: 4em;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.squareAttribution{
+	color: grey;
+}
+
+.squareLink {
+	color: white;
 }
