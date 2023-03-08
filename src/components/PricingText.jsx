@@ -45,6 +45,21 @@ export default function PricingText() {
 						<a href="./info">Learn More</a>
 					</p>
 				</div>
+				<div className={styles.PricingText}>
+					<h1>Next-Gen Technology</h1>
+					<p>
+						Vortext Voyages uses only the best of rocket technology, from
+						propulsion, to navigation, to safety systems.
+					</p>
+					<p>
+						The Venture line of rockets are the best space-faring vehicles of
+						today. They will comfortably and safely carry you into the sky, so
+						you can enjoy the awe-inducing sights of the great beyond.
+					</p>
+					<p>
+						<a href="./info">Learn More</a>
+					</p>
+				</div>
 			</div>
 		</div>
 	)
