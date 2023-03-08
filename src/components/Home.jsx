@@ -31,6 +31,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
+			<Section></Section>
 			{/* Attribution */}
 			<p className={styles.HomeAttribution}>
 				Photo by{' '}
@@ -42,7 +43,6 @@ export default function Home() {
 					Unsplash
 				</a>
 			</p>
-			<Section></Section>
 			<Spacer></Spacer>
 			<Spacer></Spacer>
 			<PricingText></PricingText>
