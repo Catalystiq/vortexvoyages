@@ -31,6 +31,17 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
+			{/* Attribution */}
+			<p className={styles.HomeAttribution}>
+				Photo by{' '}
+				<a href="https://unsplash.com/@danesduet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText%22%3E">
+					Daniel Olah
+				</a>{' '}
+				on{' '}
+				<a href="https://unsplash.com/photos/gEta6dbzFy0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText%22%3E">
+					Unsplash
+				</a>
+			</p>
 			<Section></Section>
 			<Spacer></Spacer>
 			<Spacer></Spacer>
