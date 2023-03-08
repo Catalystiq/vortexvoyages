@@ -14,7 +14,7 @@ export default function Pricing() {
 				<div className={styles.PricingTable}>
 					<div className={styles.PricingColumns}>
 						<div className={styles.PricingColumn}>
-							<h2>Economy</h2>
+							<h2>Low Orbit</h2>
 							<p>Starting At</p>
 							<h3>$10,000</h3>
 							<ul>
@@ -24,9 +24,9 @@ export default function Pricing() {
 							</ul>
 						</div>
 						<div className={styles.PricingColumn}>
-							<h2>Buisness</h2>
+							<h2>Moon Colony</h2>
 							<p>Starting At</p>
-							<h3>$100,000</h3>
+							<h3>$500,000</h3>
 							<ul>
 								<li>
 									Trip to the <b>Moon</b>
@@ -37,7 +37,7 @@ export default function Pricing() {
 							</ul>
 						</div>
 						<div className={styles.PricingColumn}>
-							<h2>First Class</h2>
+							<h2>Mars Trip</h2>
 							<p>Please</p>
 							<h3>Contact for Pricing</h3>
 							<ul>

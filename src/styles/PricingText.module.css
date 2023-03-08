@@ -28,6 +28,10 @@
 	padding-bottom: 15px;
 }
 
+.PricingText a {
+	text-decoration: underline;
+}
+
 /* Media Queries */
 
 @media (max-width: 600px) {
