@@ -16,18 +16,33 @@ export default function Home() {
 							experience something unlike anything else
 						</p>
 						<div className={styles.buttonWrapper}>
-							<button className={styles.button}>Register</button>
+							<button
+								type="button"
+								className={styles.button}
+								onClick={() => {
+									window.location.href = './pricing'
+								}}
+							>
+								Sign Up
+							</button>
 						</div>
 					</div>
 				</div>
 			</div>
-			<Spacer></Spacer>
 			<Section></Section>
 			<Spacer></Spacer>
 			<Spacer></Spacer>
 			<div className={styles.AppPurchase}>
 				<h1 className={styles.PurchaseHeader}>Join the waitlist today</h1>
-				<button className={styles.button}>Register</button>
+				<button
+					type="button"
+					className={styles.button}
+					onClick={() => {
+						window.location.href = './pricing'
+					}}
+				>
+					Sign Up
+				</button>
 			</div>
 		</div>
 	)
