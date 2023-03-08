@@ -60,6 +60,9 @@ export default function Home() {
 					Sign Up
 				</button>
 			</div>
+			<a href="https://www.flaticon.com/free-icons/rocket" title="rocket icons">
+				Space icons created by Freepik - Flaticon
+			</a>
 		</div>
 	)
 }
