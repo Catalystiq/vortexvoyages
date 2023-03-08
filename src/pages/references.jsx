@@ -22,11 +22,14 @@ export default function References() {
 			<Spacer></Spacer>
 			<Spacer></Spacer>
 			<div className={styles.infoHeader}>References</div>
-			<a href="https://www.ign.com/articles/space-tourism-booking-galactic-getaway-all-you-need-to-know">https://www.ign.com/articles/space-tourism-booking-galactic-getaway-all-you-need-to-know</a>
+			<a className={styles.reference}href="https://www.ign.com/articles/space-tourism-booking-galactic-getaway-all-you-need-to-know">https://www.ign.com/articles/space-tourism-booking-galactic-getaway-all-you-need-to-know</a>
             <br />
-            <a href="https://www.nasa.gov/multimedia/imagegallery/index.html">https://www.nasa.gov/multimedia/imagegallery/index.html</a>
+            <a className={styles.reference} href="https://www.nasa.gov/multimedia/imagegallery/index.html">https://www.nasa.gov/multimedia/imagegallery/index.html</a>
             <br />
-            <a href=""></a>
+            <br />
+            <a className={styles.reference} href="https://drive.google.com/file/d/1LswpDvL2oQ-3s1ERS_GwP20YUH1psLO2/view?usp=share_link">TSA Work Log</a>
+            <br />
+            <a className={styles.reference} href="https://drive.google.com/file/d/1RzYjr18SbRnmN0G6o9sqTrJ_wB16ulqb/view?usp=share_link">TSA Copyright Checklist</a>
 		</div>
 	)
 }
