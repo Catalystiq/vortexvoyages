@@ -5,9 +5,15 @@ export default function Section() {
 	return (
 		<div className={styles.Section}>
 			<div className={styles.SectionContent}>
-				<div className={styles.SectionItem}>Item 1</div>
-				<div className={styles.SectionItem}>Item 2</div>
-				<div className={styles.SectionItem}>Item 3</div>
+				<div className={styles.SectionItem}>
+					<img src="../public/img/planet" alt="Planet Icon" />
+				</div>
+				<div className={styles.SectionItem}>
+					<img src="../public/img/astronaut" alt="Astronaut Icon" />
+				</div>
+				<div className={styles.SectionItem}>
+					<img src="../public/img/rocket" alt="Rocket Icon" />
+				</div>
 			</div>
 		</div>
 	)
