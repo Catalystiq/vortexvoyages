@@ -2,11 +2,13 @@ import styles from '@/styles/Home.module.css'
 import NavBar from '@/components/NavBar'
 import Spacer from './Spacer'
 import Section from './Section'
+import PricingText from './PricingText'
 
 export default function Home() {
 	return (
 		<div className={styles.App}>
 			<NavBar></NavBar>
+			<Spacer></Spacer>
 			<div className={styles.AppMain}>
 				<div className={styles.AppWrapper}>
 					<h1 className={styles.AppHeading}>The Final Frontier</h1>
@@ -30,6 +32,9 @@ export default function Home() {
 				</div>
 			</div>
 			<Section></Section>
+			<Spacer></Spacer>
+			<Spacer></Spacer>
+			<PricingText></PricingText>
 			<Spacer></Spacer>
 			<Spacer></Spacer>
 			<div className={styles.AppPurchase}>
