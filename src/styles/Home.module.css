@@ -33,7 +33,6 @@
 }
 
 .AppText {
-	margin-bottom: 300px;
 	animation: fadeInAnimation ease 6s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
@@ -75,6 +74,18 @@
 }
 
 /* MEDIA QUERRIES */
+
+@media (max-height: 800px) {
+	.button {
+		margin-bottom: 100px;
+	}
+}
+
+@media (max-height: 600px) {
+	.button {
+		margin-bottom: 50px;
+	}
+}
 
 @media (max-width: 1160px) {
 	.AppHeading {
